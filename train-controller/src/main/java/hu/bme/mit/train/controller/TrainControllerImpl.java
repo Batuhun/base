@@ -69,6 +69,8 @@ public class TrainControllerImpl implements TrainController {
             try {
 				if(joystickPosition>0)
 					followSpeed();
+				else 
+					followSpeed();
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
